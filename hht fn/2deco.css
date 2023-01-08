@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image/hht.jpg);
+    background-position-x: center;
+    background-size: cover;
+    padding-left: 4%;
+    padding-right: 8%;
+    box-sizing:border-box;
+}
+
+.bar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width:70px;
+    cursor:pointer;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size:15px;
+}
+
+.post {
+    display:flex ;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex: basis 50%;
+}
+
+h1 {
+    color: #fff;
+    font-size: 100px;
+    line-height: 0.77;
+}
+
+p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 15px;
+}
+
+.under {
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+button {
+    width: 180px;
+    color: #000;
+    font-size:15px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px; 
+}
+
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 40px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px 20px;
+    background-position:center;
+    background-size: cover;
+    position: relative;
+}
+.position{
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 10px ;
+}
+
+.card1 {
+    background-image: url(image/sc.jpg);
+}
+
+.card2 {
+    background-image: url(image/멍냥\ 취향계\ on\ Twitter.jpg);
+}
+
+.card3 {
+    background-image: url(image/[Instagram]\ Mingyu.jpg);
+}
+
+.card4 {
+    background-image: url(image/hhu\ thinker\ on\ Twitter.jpg);
+}
+
+.card:hover {
+    transform:translatey(-10px);
+}
+
+h2 {
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+.card p {
+    text-shadow: 0 0 15px #000;
+    font-size: 15px;
+}
